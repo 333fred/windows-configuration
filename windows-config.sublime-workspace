@@ -12,18 +12,10 @@
 	"buffers":
 	[
 		{
-			"file": "WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
-			"settings":
-			{
-				"buffer_size": 241,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 901,
+				"buffer_size": 1265,
 				"line_ending": "Windows"
 			}
 		},
@@ -69,10 +61,46 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 279.0,
-		"last_filter": "pack dis",
+		"height": 588.0,
+		"last_filter": ":w",
 		"selected_items":
 		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"pakcin",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pakin",
+				"Package Control: Install Package"
+			],
+			[
+				":remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
 			[
 				"pack dis",
 				"Package Control: Disable Package"
@@ -88,10 +116,6 @@
 			[
 				"mark",
 				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"proje",
@@ -114,7 +138,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 768.0
+		"width": 600.0
 	},
 	"console":
 	{
@@ -140,6 +164,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Fredric/Documents/git/windows-config/SublimeTextContextMenu.txt",
+		"/C/Users/Fredric/Documents/git/windows-config/Sublime Text 3/.gitignore",
 		"/C/Users/Fredric/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Fredric/Downloads/ipsec.conf_on_cloud.tex",
 		"/C/Users/Fredric/Downloads/ipsec.conf_on_router.tex",
@@ -147,7 +173,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -161,6 +187,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"The WindowsPowerShell directory contains my powershell customizations. In order to use them, copy them to ```C:\\<your username>\\Documents\\``` and uncomment the commented out lines. You should then be able to load the shell and get the color scheme. Make any changes to the font necessary, and then comment out these lines again. The scheme should stick around.\n\n## Development Environment\nTo get all of the tools for a development environment t",
+			"The WindowsPowerShell directory contains my powershell",
+			"\n## Development Environment\nTo get all of the tools for a development environme",
+			")."
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -178,70 +208,30 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 241,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PowerShell/Support/PowershellSyntax.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 901,
+						"buffer_size": 1265,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								652,
-								652
+								1265,
+								1265
 							]
 						],
 						"settings":
 						{
 							"highlight_line": false,
+							"incomplete_sync": null,
 							"parser": "github",
 							"syntax": "Packages/Markdown/Markdown.tmLanguage",
 							"target": "disk",
@@ -262,14 +252,14 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 46.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
@@ -315,7 +305,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -352,11 +342,15 @@
 	{
 		"height": 148.0
 	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "windows-config.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
