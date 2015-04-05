@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"Git",
 		"Gradle_Language",
 		"Javap",
 		"Markdown Preview",
