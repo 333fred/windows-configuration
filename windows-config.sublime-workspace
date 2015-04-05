@@ -15,7 +15,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1265,
+				"buffer_size": 1386,
 				"line_ending": "Windows"
 			}
 		},
@@ -61,7 +61,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 588.0,
+		"height": 392.0,
 		"last_filter": ":w",
 		"selected_items":
 		[
@@ -138,7 +138,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 600.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -159,8 +159,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Fredric/Documents/git/windows-config",
-		"/C/Users/Fredric/Documents/git/windows-config/WindowsPowerShell"
+		"/C/Users/Fredric/Documents/git/windows-configuration"
 	],
 	"file_history":
 	[
@@ -173,7 +172,7 @@
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -217,15 +216,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1265,
+						"buffer_size": 1386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1265,
-								1265
+								1386,
+								1386
 							]
 						],
 						"settings":
@@ -252,7 +251,7 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 46.0,
+						"translation.y": 31.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -278,7 +277,9 @@
 						{
 							"parser": "github",
 							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
 							"target": "browser",
+							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
 								"action": null,
@@ -305,7 +306,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -350,7 +351,7 @@
 	"project": "windows-config.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -364,12 +365,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Users\\Fredric\\Documents\\git\\windows-configuration\\windows-config.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
